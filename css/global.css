@@ -1,0 +1,118 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  /* primary color */
+  --orange: hsl(25, 97%, 53%);
+
+  /* natural color */
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(217, 12%, 63%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --light-dark-blue: hsl(215, 23%, 21%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+
+  --font: "Overpass", sans-serif;
+  --fonr-size: 15px;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--very-dark-blue);
+  font-family: var(--font);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inner-wrapper {
+  width: 380px;
+  height: 350px;
+  padding: 30px;
+  /* margin-top: 50px; */
+  margin: 144px 500px;
+  max-width: calc(100% - 10px);
+  background: var(--dark-blue);
+  border-radius: 20px;
+}
+
+.container {
+  width: 380px;
+  height: 350px;
+  padding: 30px;
+  /* margin-top: 50px; */
+  margin: 144px 500px;
+  max-width: calc(100% - 10px);
+  background: var(--dark-blue);
+  border-radius: 20px;
+}
+
+/* attribution */
+.attribution {
+  color: var(--white);
+  font-size: 13px;
+  text-align: center;
+  margin-top: 40px;
+}
+.attribution a {
+  color: var(--orange);
+}
+
+@media screen and (max-width: 480px) {
+  .inner-wrapper,
+  .container {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .attribution {
+    font-size: 11px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .outer-wrapper {
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .inner-wrapper,
+  .container {
+    width: 380px;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .attribution {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+}

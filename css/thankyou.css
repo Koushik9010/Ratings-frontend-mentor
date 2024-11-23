@@ -1,0 +1,45 @@
+.container .image {
+  justify-content: center;
+  text-align: center;
+}
+
+.image img {
+  object-fit: cover;
+  padding: 17px;
+  margin: 0;
+}
+
+.container.rating {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container .rating p {
+  width: 60%;
+  height: 30px;
+  color: var(--orange);
+  font-size: 15px;
+  font-weight: 300;
+  background-color: var(--light-dark-blue);
+  border-radius: 25px;
+  margin: 0 auto 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+
+.container .thank-you h2 {
+  color: var(--white);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container .thank-you p {
+  font-size: 14px;
+  color: var(--light-gray);
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+}

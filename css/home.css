@@ -1,0 +1,87 @@
+.inner-wrapper .star-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--light-dark-blue);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inner-wrapper .star-icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 17px;
+  margin: 0;
+}
+
+.inner-wrapper .rating h2 {
+  color: var(--white);
+  margin: 8px 5px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.inner-wrapper .rating p {
+  color: var(--light-gray);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.inner-wrapper .rating ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.inner-wrapper .rating ul li {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  color: var(--white);
+  padding: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-dark-blue);
+  margin-bottom: 20px;
+}
+
+.inner-wrapper .rating ul li:hover {
+  background-color: var(--light-gray);
+  transition: all, 0.5s;
+}
+
+.inner-wrapper .rating ul li:focus {
+  background-color: var(--orange);
+  outline: none;
+}
+
+.submit {
+  height: 35px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: var(--orange);
+}
+
+.submit a {
+  color: var(--very-dark-blue);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  background-color: var(--white);
+  transition: all, 0.5s;
+}
